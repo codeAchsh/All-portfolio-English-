@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 *{
   box-sizing: border-box;
   margin: 0;
@@ -18,15 +19,19 @@ h1 {
   color: #333;
 }
 .about{
+  font-family: "PT Serif", serif;
   background-color: rgb(253, 245, 235);
   margin-top: 3em;
   text-align: center;
 }
 .click{
-  width: 80%;    margin-top: 3em;
+  width: 80%;    
+  margin-top: 3em;
   text-align: center;
   color: #d9534f;
   font-weight: 600;
+  font-family: "roboto";
+  text-decoration: underline;
 }
 .version{
   width: 200px;
@@ -35,7 +40,7 @@ h1 {
   background-color: bisque;
   color: yellowgreen;
   display: block;
-  margin: 0 auto;
+  margin: 2em auto;
   text-align: center;
   border: #d3d3d3 solid 1px;
 }
@@ -47,18 +52,19 @@ li{
   margin-top: 2em;
 }
 a {
-  color: #0077cc;
+  color: #d9534f;
   text-decoration: none;
   font-size: 20px;
   cursor: pointer;
+  text-decoration: underline;
 }
 a:hover {
-  text-decoration: underline;
   word-wrap: break-word;
   color: rgb(218, 138, 150);
 }
 p{
   margin-left: 5em;
+  font-family: "PT Serif", serif;
 }
 
 /* SKILLS/TOOLS/SNS */
